@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lblSaludo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Texto de Firebase"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnCambiar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Cambiar" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/Foco1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/foco_off"
+            android:layout_marginHorizontal="50dp"
+            />
+
+        <Button
+            android:id="@+id/btnPrender1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENCENDER"
+            />
+
+        <Button
+            android:id="@+id/btnApagar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="APAGAR"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/Foco2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/foco_off"
+            android:layout_marginHorizontal="50dp"
+            />
+
+        <Button
+            android:id="@+id/btnPrender2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENCENDER"
+            />
+
+        <Button
+            android:id="@+id/btnApagar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="APAGAR"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/Foco3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/foco_off"
+            android:layout_marginHorizontal="50dp"
+            />
+
+        <Button
+            android:id="@+id/btnPrender3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENCENDER"
+            />
+
+        <Button
+            android:id="@+id/btnApagar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="APAGAR"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
